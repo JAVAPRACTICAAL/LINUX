@@ -1,0 +1,16 @@
+echo "pipe symbol connect one or more process"
+echo "***********************************"
+ls -1 *.sh | wc -l
+echo "redirect correct output to newfile"
+echo "***********************************"
+sh job1.sh > correctoutput
+echo "redirect error output to newfile"
+echo "***********************************"
+sh job1.sh 2> erroutput
+echo "redirect all output to new file"
+echo "***********************************"
+sh job1.sh &> alloutput
+echo "tee copies data from standard input to each file and also to
+standard output" echo
+"***********************************"
+ls -1 *.txt | wc -l | tee count.txt

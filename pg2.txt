@@ -1,0 +1,20 @@
+echo "****************"
+echo "username:"$USER
+echo "****************"
+echo "loginname:"$LOGNAME
+echo "*****************"
+echo "currentshell:"$SHELL
+echo "********************"
+echo "homedirectory:"$HOME
+echo "********************"
+echo "our pc os is:"$OSTYPE
+echo "*********************"
+echo "current directory:"
+echo "*********************"
+pwd
+echo "system configration (or)pc configration:"
+echo "***************************************"
+lscpu
+echo "free memory space:"
+echo "******************"
+free -m

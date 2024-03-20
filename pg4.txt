@@ -1,0 +1,16 @@
+echo "1-who am i?"
+echo "2-who is logged on?"
+echo "3-date"
+echo "4-calendar"
+echo "5-current directory"
+echo "6-file listing"
+echo "enter your choice"
+read n
+case $n in
+1) whoami;;
+2) who;;
+3) date;;
+4) cal;;
+5) pwd;;
+6) ls;;
+esac

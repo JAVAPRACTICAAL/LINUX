@@ -1,0 +1,16 @@
+ls // To list all the files in the directory
+cp file1 file2 // To copy a file
+cat file2 // To View the Contents in file2
+mv file3 file4 // To move files
+cat file4 // Contents in file4
+wc file1 // To see the word count
+wc -l file1 // To see the line count
+wc -w file1 // To see the words count
+wc -c file1 // To see the character count
+split -3 file1 // To split a file
+head -3 file1 // To read a Initial lines of file
+tail -3 file1 // To read a Last lines of file
+cmp file1 file2 // To compare two files
+diff file1 file2 // To differ two files
+rm file6 // To remove a file6 from the directory
+rm -r *

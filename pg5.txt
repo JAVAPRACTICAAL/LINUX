@@ -1,0 +1,17 @@
+echo "filter cmd"
+echo "**********"
+cp/etc/passwd passwd
+echo "diaplay no of lines, words and char in passwd file"
+echo "*************************************"
+wc passwd
+echo "display the lines containing the word root"
+echo "**************************"
+grep -n "root" passwd | more
+echo "display the count of lines that containing the word root"
+grep -c "root" passwd
+echo "display all the lines that din't match with the line root"
+grep -v "root" passwd | more
+echo "replace ":" with "*" in passwd"
+tr ':' '*' < passwd | more
+echo "display first column of the file passwd"
+cut -d':' -f1 passwd

@@ -1,0 +1,7 @@
+echo "enter the table number"
+read n
+echo "enter the range"
+read range
+for (( i=1 ; i <= range ; i++ ))
+{
+echo "$i * $n = `expr $n \* $i`"
